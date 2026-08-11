@@ -1,12 +1,11 @@
 package: cloud.lazycat.app.prehistoric-animal-museum
-version: 0.1.0
+version: 0.1.1
 name: 史前动物博物馆
 description: 给孩子和家长一起观察的免费 3D 史前动物小世界
 min_os_version: 1.5.0
 homepage: https://github.com/s010s/prehistoric-animal-museum
 author: s010s
 license: AGPL-3.0-only
-
 locales:
   zh:
     name: 史前动物博物馆
@@ -17,4 +16,3 @@ locales:
   en:
     name: Prehistoric Animal Museum
     description: A calm 3D prehistoric animal museum for children and parents
-
