@@ -38,10 +38,3 @@ npm run build
 
 rm -rf "${project_root}/dist"
 cp -a dist "${project_root}/dist"
-
-node --input-type=module - "${project_root}/icon.png" <<'NODE'
-import sharp from 'sharp'
-
-const output = process.argv[2]
-await sharp('public/favicon.svg').resize(512, 512).png().toFile(output)
-NODE
