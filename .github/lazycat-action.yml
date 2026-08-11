@@ -1,0 +1,35 @@
+version: 1
+
+project:
+  root: .
+  build_config: lzc-build.yml
+  package_file: package.yml
+  output: .lazycat-build/prehistoric-animal-museum.lpk
+  target_arch: amd64
+
+update:
+  strategy: publish
+  allow_downgrade: false
+  version_source:
+    type: git
+
+build:
+  toolchains:
+    - kind: node
+      version: 20.19.0
+  run_buildscript: true
+
+images: []
+
+stores:
+  official:
+    enabled: false
+    skip_if_version_exists: false
+    retry:
+      enabled: false
+  private:
+    enabled: true
+    skip_if_version_exists: true
+    name: 史前动物博物馆
+    summary: 从上游源码自动构建并发布的懒猫静态应用
+
