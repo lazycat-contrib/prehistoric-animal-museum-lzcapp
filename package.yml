@@ -5,7 +5,7 @@ description: 给孩子和家长一起观察的免费 3D 史前动物小世界
 min_os_version: 1.5.0
 homepage: https://github.com/s010s/prehistoric-animal-museum
 author: s010s
-license: AGPL-3.0-only
+license: AGPL-3.0
 locales:
   zh:
     name: 史前动物博物馆
