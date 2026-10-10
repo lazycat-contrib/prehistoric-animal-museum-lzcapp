@@ -1,5 +1,5 @@
 package: cloud.lazycat.app.prehistoric-animal-museum
-version: 0.1.2
+version: 0.1.3
 name: 史前动物博物馆
 description: 给孩子和家长一起观察的免费 3D 史前动物小世界
 min_os_version: 1.5.0
